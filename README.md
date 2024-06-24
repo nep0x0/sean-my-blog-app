@@ -15,29 +15,6 @@ The tutorial can be found on YouTube: [Sean's Blog App Tutorial](https://www.you
 - **Express**: A minimal and flexible Node.js web application framework.
 - **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
 
----
-
-Anda bisa menambahkan langkah-langkah untuk setup dan fitur jika diperlukan. Berikut adalah template yang lebih lengkap:
-
----
-
-# sean-my-blog-app
-
-## My Blog App
-
-This project is a blog application developed by following Sean's tutorial on YouTube. The stack includes Supabase, Astro, Express, and Node.js.
-
-### Tutorial Details
-
-The tutorial can be found on YouTube: [Sean's Blog App Tutorial](https://www.youtube.com/watch?v=OQOY7hSyz80&t=1354s)
-
-### Technologies Used
-
-- **Supabase**: An open-source Firebase alternative providing backend services.
-- **Astro**: A modern static site builder that delivers lightning-fast performance.
-- **Express**: A minimal and flexible Node.js web application framework.
-- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
-
 ### Project Setup
 
 1. **Clone the repository**:
