@@ -18,9 +18,10 @@ app.get("/", async(request, response) => {
 
 app.post("/", async(request, response) => {
     const { title, description } = request.body
-    console.log(title, description)
+    const createPost = await db.from("blog").insert({title, description})
+    console.log(" app.post createPost: ", createPost)
 
-    response.send("ok")
+    response.json({ createPost })
 })
 
 app.listen(PORT, () => {
