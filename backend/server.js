@@ -10,9 +10,8 @@ const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 const db = supabase.createClient(SUPABASE_URL, SUPABASE_KEY)
 
 app.get("/", async(request, response) => {
-    const getData = await db.from("blog").select()
-    console.log(getData)
-    response.send("ini adalah route utama")
+    const getBlog = await db.from("blog").select()
+    response.json({ getBlog })
 })
 
 app.listen(PORT, () => {
